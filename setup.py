@@ -41,7 +41,8 @@ setup(name='sparc.cli',
       install_requires=[
           'setuptools',
           'zope.interface',
-          'zope.component'
+          'zope.component',
+          'zope.location'
       ],
       tests_require=TESTS_REQUIRE,
       extras_require={
